@@ -1,4 +1,4 @@
-clusters = 230 260 310 379
+clusters = 200 223 230 236 250 254 258 260 310 321 350 363 375 379
 clusters:
 	echo $(Passcode); \
 	for cluster in $(clusters); do \
