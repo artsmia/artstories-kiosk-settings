@@ -181,7 +181,7 @@
 		<!--Idle Time Limit (seconds)-->
 		<dict>
 			<key>Key</key><string>idleTime</string>
-			<key>Value</key><integer>30</integer>
+			<key>Value</key><integer>600</integer>
 		</dict>
 		<!--Show Idle Time Reset Alert-->
 		<dict>
@@ -196,7 +196,7 @@
 		<!--Refresh Homepage Every (minutes) -->
 		<dict>
 			<key>Key</key><string>refreshTime</string>
-			<key>Value</key><string>2</string>
+			<key>Value</key><string>0</string>
 		</dict>
 		<!--Page Loading Time Limit-->
 		<dict>
