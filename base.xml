@@ -427,7 +427,7 @@
 		<!--Enable-->
 		<dict>
 			<key>Key</key><string>remoteSettingsEnabled</string>
-			<key>Value</key><false/>
+			<key>Value</key><true/>
 		</dict>
 		<!--XML File Location-->
 		<dict>
