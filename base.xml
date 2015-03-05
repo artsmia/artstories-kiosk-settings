@@ -637,17 +637,17 @@
 		<!--Enable Night Mode-->
 		<dict>
 			<key>Key</key><string>sleepSchedullerEnabled</string>
-		 	<key>Value</key><false/>
+		 	<key>Value</key><true/>
 		</dict>
 		<!--Schedule Night Mode-->
 				<!--Sleep Pair 1: time_even number = wake, time_odd number = dim or sleep. -->
 				<dict>
 					<key>Key</key><string>time_0</string>
-					<key>Value</key><string>Tuesday 08:45</string>
+					<key>Value</key><string>Tuesday 09:00</string>
 				</dict>
 				<dict>
 					<key>Key</key><string>time_1</string>
-					<key>Value</key><string>Tuesday 17:00</string>
+					<key>Value</key><string>Tuesday 18:00</string>
 				</dict>
 				<!--Sleep Pair 2 -->
 				<dict>
@@ -656,43 +656,43 @@
 				</dict>
 				<dict>
 					<key>Key</key><string>time_3</string>
-					<key>Value</key><string>Wednesday 21:00</string>
+					<key>Value</key><string>Wednesday 18:00</string>
 				</dict>
 				<!--Sleep Pair 3 -->
 				<dict>
 					<key>Key</key><string>time_4</string>
-					<key>Value</key><string></string>
+					<key>Value</key><string>Thursday 09:00</string>
 				</dict>
 				<dict>
 					<key>Key</key><string>time_5</string>
-					<key>Value</key><string></string>
+					<key>Value</key><string>Thursday 22:00</string>
 				</dict>
 				<!--Sleep Pair 4 -->
 				<dict>
 					<key>Key</key><string>time_6</string>
-					<key>Value</key><string></string>
+					<key>Value</key><string>Friday 09:00</string>
 				</dict>
 				<dict>
 					<key>Key</key><string>time_7</string>
-					<key>Value</key><string></string>
+					<key>Value</key><string>Friday 22:00</string>
 				</dict>
 				<!--Sleep Pair 5 -->
 				<dict>
 					<key>Key</key><string>time_8</string>
-					<key>Value</key><string></string>
+					<key>Value</key><string>Saturday 09:00</string>
 				</dict>
 				<dict>
 					<key>Key</key><string>time_9</string>
-					<key>Value</key><string></string>
+					<key>Value</key><string>Saturday 18:00</string>
 				</dict>
 				<!--Sleep Pair 6 -->
 				<dict>
 					<key>Key</key><string>time_10</string>
-					<key>Value</key><string></string>
+					<key>Value</key><string>Sunday 09:00</string>
 				</dict>
 				<dict>
 					<key>Key</key><string>time_11</string>
-					<key>Value</key><string></string>
+					<key>Value</key><string>Sunday 18:00</string>
 				</dict>
 				<!--Sleep Pair 7 -->
 				<dict>
