@@ -33,7 +33,7 @@
 		<!--Unique iPad ID-->
 		<dict>
 			<key>Key</key><string>uniqueiPadID</string>
-			<key>Value</key><string></string>
+			<key>Value</key><string>__uniqueID__</string>
 		</dict>
 		
 		<!-- This section is for updating multiple kiosks that each need a different Unique iPad ID.
