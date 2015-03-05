@@ -504,17 +504,17 @@
 				<!--From Email-->
 				<dict>
 					<key>Key</key><string>smtpFromEmail</string>
-					<key>Value</key><string></string>
+					<key>Value</key><string>__fromEmail__</string>
 				</dict>
 				<!--To Email-->
 				<dict>
 					<key>Key</key><string>smtpToEmail</string>
-					<key>Value</key><string></string>
+					<key>Value</key><string>__toEmail__</string>
 				</dict>
 				<!--SMTP Server-->
 				<dict>
 					<key>Key</key><string>smtpServer</string>
-					<key>Value</key><string></string>
+					<key>Value</key><string>__SMTPServer__</string>
 				</dict>
 				<!--SMTP Ports-->
 				<dict>
@@ -524,7 +524,7 @@
 				<!--Requires Authentication-->
 				<dict>
 					<key>Key</key><string>smtpRequiresAuth</string>
-					<key>Value</key><true/>
+					<key>Value</key><false/>
 				</dict>
 				<!--User Name-->
 				<dict>
@@ -544,63 +544,63 @@
 		<!--Email on Power Supply Change-->
 		<dict>
 			<key>Key</key><string>emailOnPower</string>
-			<key>Value</key><false/>
+			<key>Value</key><true/>
 		</dict>
 		<!--Email on Battery Level Change-->
 				<!--Email on Battery Discharge to Lower Zone-->
 				<dict>
 					<key>Key</key><string>emailOnBatteryDischargeToLowerZone</string>
-					<key>Value</key><false/>
+					<key>Value</key><true/>
 				</dict>
 				<!--Email on Battery Charge to Higher Zone-->
 				<dict>
 					<key>Key</key><string>emailOnBatteryChargeToHigherZone</string>
-					<key>Value</key><false/>
+					<key>Value</key><true/>
 				</dict>
 				<!--Low %: undefined = -1, '10%' = 10, '50%' = 50 -->
 				<dict>
 					<key>Key</key><string>lowZoneLevel</string>
-					<key>Value</key><integer>-1</integer>
+					<key>Value</key><integer>50</integer>
 				</dict>
 				<!--Email when Unplugged (Normal Zone)-->
 				<dict>
 					<key>Key</key><string>emailWhenUnpluggedInNormalZone</string>
-					<key>Value</key><false/>
+					<key>Value</key><true/>
 				</dict>
 				<!--Email when Charging (Normal Zone)-->
 				<dict>
 					<key>Key</key><string>emailWhenChargingInNormalZone</string>
-					<key>Value</key><false/>
+					<key>Value</key><true/>
 				</dict>
 				<!--Critical %: undefined = -1, '10%' = 10, '50%' = 50 -->
 				<dict>
 					<key>Key</key><string>criticalZoneLevel</string>
-					<key>Value</key><integer>-1</integer>
+					<key>Value</key><integer>20</integer>
 				</dict>
 				<!--Email when Unplugged (Low Zone)-->
 				<dict>
 					<key>Key</key><string>emailWhenUnpluggedInLowZone</string>
-					<key>Value</key><false/>
+					<key>Value</key><true/>
 				</dict>
 				<!--Email when Charging (Low Zone)-->
 				<dict>
 					<key>Key</key><string>emailWhenChargingInLowZone</string>
-					<key>Value</key><false/>
+					<key>Value</key><true/>
 				</dict>
 				<!--Email when Unplugged (Critical Zone)-->
 				<dict>
 					<key>Key</key><string>emailWhenUnpluggedInCriticalZone</string>
-					<key>Value</key><false/>
+					<key>Value</key><true/>
 				</dict>
 				<!--Email when Charging (Critical Zone)-->
 				<dict>
 					<key>Key</key><string>emailWhenChargingInCriticalZone</string>
-					<key>Value</key><false/>
+					<key>Value</key><true/>
 				</dict>
 		<!--Email on Remote Update of Settings-->
 		<dict>
 			<key>Key</key><string>emailOnRemoteSettingsChange</string>
-			<key>Value</key><false/>
+			<key>Value</key><true/>
 		</dict>
 		<!--Email on Update of Local Files-->
 		<dict>
@@ -610,7 +610,7 @@
 		<!--Email on Motion Detection-->
 		<dict>
 			<key>Key</key><string>emailOnAccelTrigger</string>
-			<key>Value</key><false/>
+			<key>Value</key><true/>
 		</dict>
 		
 		
