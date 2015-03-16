@@ -727,7 +727,7 @@
 		<!--Screen Brightness: maximum screen brightness = 1, minimum = 0; setting must be between 1 and 0-->
 		<dict>
 			<key>Key</key><string>manualControlOfBrightness</string>
-			<key>Value</key><real>1</real>
+			<key>Value</key><real>0.7</real>
 		</dict>
 		
 		
