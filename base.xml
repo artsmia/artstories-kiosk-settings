@@ -391,12 +391,12 @@
 		<!-- Accept cookies: 0 = Never, 1 = From Visited, 2 = Always -->
 		<dict>
 			<key>Key</key><string>cookieAcceptPolicy</string>
-			<key>Value</key><integer>1</integer>
+			<key>Value</key><integer>0</integer>
 		</dict>
 		<!--Clear Cookies on Homepage-->
 		<dict>
 			<key>Key</key><string>clearCookies</string>
-			<key>Value</key><false/>
+			<key>Value</key><true/>
 		</dict>
 
 	
