@@ -1,4 +1,4 @@
-clusters = 200 223 230 236 250 254 258 260 310 321 350 363 375 379
+clusters = 200 223 225 237 230 236 250 254 258 260 310 321 328 350 363 375 379
 clusters:
 	for cluster in $(clusters); do \
 		sed "s/__Passcode__/$(Passcode)/; \
